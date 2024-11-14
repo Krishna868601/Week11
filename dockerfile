@@ -9,4 +9,4 @@ COPY --from=builder /web/app .
 COPY --from=builder /web/templates ./templates
 
 EXPOSE 80
-CMD [ "./app" ]
+CMD ["./app"]
